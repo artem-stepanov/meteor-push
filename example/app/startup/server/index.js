@@ -24,7 +24,7 @@ Push.Configure({
     sound: 'note',             // String (file has to exist in app/src/res/... or default on the mobile will be used). For Android no extension, for IOS add '.caf'
     data: null,                // Global Data object - applies to all vendors if specific vendor data object does not exist.
     imageUrl: 'https://a_default_image_url.jpg',
-    badge: 1,                  // Integer
+    badge: 0,                  // Integer
     vibrate: 1,                // Boolean // TODO see if I really use this.
     requireInteraction: false, // TODO Implement this and move it to where it belongs
     action: 'https://some_photo_url_or_link_to_something', // Android, WebPush - on notification click follows this URL
