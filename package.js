@@ -7,15 +7,15 @@ Package.describe({
 });
 
 Npm.depends({
-  'firebase-admin': '11.11.0',
-  firebase: '10.4.0',
+  'firebase-admin': '13.3.0',
+  firebase: '11.7.1',
   events: '3.3.0'
 })
 
 Cordova.depends({
-  '@havesource/cordova-plugin-push': 'https://github.com/havesource/cordova-plugin-push.git#86b52a7769fe80e975752f2d2db5b1abeb194802', // for IOS with SDK > 8.1.1
-  // '@havesource/cordova-plugin-push': '3.0.1', // for Android with SDK <=21.+
-  'cordova-plugin-device': '2.1.0'
+  // '@havesource/cordova-plugin-push': 'https://github.com/havesource/cordova-plugin-push.git#86b52a7769fe80e975752f2d2db5b1abeb194802', // for IOS with SDK > 8.1.1
+  '@havesource/cordova-plugin-push': '5.0.5',
+  'cordova-plugin-device': '3.0.0'
 })
 
 Package.onUse(api => {
